@@ -11,6 +11,7 @@
     color: #231E41;
     font-family: 'Rubik', sans-serif;
     margin-bottom: 60px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 .text-section2 .list{
@@ -29,7 +30,7 @@
 }
 .text-section2 .list .par h3{
     line-height: 120%;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: -1px;
     color: #231E41;
     font-weight: bold;
