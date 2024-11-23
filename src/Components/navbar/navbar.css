@@ -1,0 +1,137 @@
+.navbar{
+    /* background-color: brown; */
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+    box-shadow: #0000003b 0px 0px 12px;
+    position: relative;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white
+}
+
+.navbar .container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar .container .list ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar .container .list ul li a{
+    text-decoration: none;
+    color: #231E41;
+    padding:0 20px ;
+    transition: 1s;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar .container .list ul li a.active{
+    background-color: blue;
+}
+.navbar .container .list ul li:nth-child(2){
+    
+}
+.navbar .container .list ul a:hover{
+    color: #F5C332;
+}
+.navbar .container .media ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.navbar .container .media ul li{
+    position: relative;
+}
+.navbar .container .media ul li:first-child button{
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 50%;
+    transition: 0.5s;
+    border: none;
+    padding: 3px 10px;
+    font-size: 30px; 
+    overflow: hidden;
+}
+.navbar .container .media ul li:first-child:hover{
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.navbar .container .media ul li:first-child span{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    font-size: 14px;
+    padding:1px 8px;
+    border-radius: 50%;
+    background-color: #F5C332;
+}
+.navbar .container .media ul li:last-child{
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 50%;
+    transition: 0.5s;
+    border: none;
+    padding: 3px 10px;
+    font-size: 30px; 
+    overflow: hidden;
+    margin: 0 10px;
+}
+ 
+
+
+@media only screen and (max-width: 767px) {
+    .navbar .container .list1 ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar .container .list1 ul li{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.233);
+        padding: 10px;
+    }
+    .navbar .container .list{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        /* display: none; */
+        top: -100%;
+    }
+    .navbar .container .list1{
+        /* display: block; */
+        top: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: all 0.7s ease;
+        background-color: white;
+        height: 100%;
+        z-index: 100;
+    }
+    .navbar .container .list1 ul{
+        padding: 0;
+        background-color: white;
+
+    }
+    .navbar .container .list1 ul li a{
+        text-decoration: none;
+        color: #231E41;
+        padding:0 20px ;
+        transition: 1s;
+        font-size: 14px;
+        font-weight: bold;
+    }
+  }

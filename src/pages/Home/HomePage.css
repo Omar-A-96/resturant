@@ -1,0 +1,15 @@
+.section-1 .contact{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 20vh;
+}
+.section-1 .section-2{
+    margin: 50px 0;
+}
+.sectino-2 .contact{
+    display: flex;
+    justify-content: space-between;
+}
