@@ -1,10 +1,10 @@
 .image-2{
     width: 100%;
     height: 600px;
-    /* background-color: black; */
+    background-color: black;
     position: relative;
-    overflow: hidden;
     z-index: 0;
+    overflow: hidden;
 }
  .image-2 img{
     position: absolute;
@@ -28,19 +28,23 @@
         transform: scale(1);
     }
 }
-.image-2 .sh-1{
+.image-2 .anim{
+    width: 100%;
+    height: 100%;
+}
+.image-2 .anim .sh-1{
     border: solid 25px #FFFFFF;
     height: 140px;
     width: 140px;
     border-radius: 50%;
     position: absolute;
-    bottom: -80px;
+    /* bottom: -80px; */
     left: 0;
     animation: sh-1 3s 1s infinite ease-in-out;
     box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.09), 0 3px 6px 0 rgba(0, 0, 0, 0.09);
 }
 
-.image-2 .sh-3{
+.image-2 .anim .sh-3{
     position: absolute;
     top: 40%;
     right:-10px;
@@ -54,7 +58,7 @@
     
 
 }
-.image-2 .sh-5{
+.image-2 .anim .sh-5{
     position: absolute;
     bottom: 50%;
     left: 0%;
@@ -102,7 +106,7 @@
             border: solid 15px #FFFFFF;
         }
     }
-    
+
 .image-2 .exp{
     background-color: #FFFFFF;
     width: 100px;

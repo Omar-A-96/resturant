@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-section-3 h3{
+    font-size: 36px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #231E41;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+}
+.text-section-3 p{
+    color: #6F6F87;
+    font-size: 15px;
+}

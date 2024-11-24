@@ -1,0 +1,19 @@
+
+.btn-section3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-section3 a{
+    padding: 20px 30px;
+    background-color:#F5C332;
+    transition: 0.5s;
+    
+}
+.btn-section3 a span{
+    font-size: 30px;
+    padding: 10px;
+}
+.btn-section3 a:hover{
+    background-color: #f7d46c;
+}

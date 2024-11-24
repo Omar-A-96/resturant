@@ -7,7 +7,8 @@ export default function ImageHomeSection2(){
     return(
         <div className="image-2 col-md-12 col-lg-6 text-md-center ">
             <img src={imageHomeSection2} alt="" />
-            <div className="sh-1"></div>
+           <div className="anim">
+           <div className="sh-1"></div>
             <div className="sh-3"></div>
             <div className="sh-5"></div>
             <div className="exp">
@@ -16,6 +17,7 @@ export default function ImageHomeSection2(){
                     <p>Years Experiense</p>
                 </div>
             </div>
+           </div>
         </div>
     )
 }
