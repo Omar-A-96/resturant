@@ -1,7 +1,7 @@
 .navbar{
     /* background-color: brown; */
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     border-bottom: 1px solid rgba(128, 128, 128, 0);
     box-shadow: #0000003b 0px 0px 12px;
     position: relative;
@@ -35,7 +35,7 @@ a{
 .navbar .container .list ul li a{
     text-decoration: none;
     color: #231E41;
-    padding:0 20px ;
+    padding:0 30px ;
     transition: 1s;
     font-size: 14px;
     font-weight: bold;
@@ -91,7 +91,7 @@ a{
  
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
     .navbar .container .list1 ul{
         flex-direction: column;
         text-align: center;

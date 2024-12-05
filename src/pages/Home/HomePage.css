@@ -20,3 +20,20 @@
     align-items: flex-end;
     margin: 100px 0px;
 }
+.section-6 .contant {
+    width: 80%;
+    margin: auto;
+    /* height: 400px; */
+    /* background-color: brown; */
+}
+.section-6 .contact .slick-initialized button .slick-prev:before{
+    /* background-color: black; */
+    color: black;
+}
+
+
+.section-10{
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+    box-shadow: #0000003b 0px 0px 12px;
+    width: 100%;
+}

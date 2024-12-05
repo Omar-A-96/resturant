@@ -22,7 +22,7 @@ export default function Navbar(){
             <div className={isopen ? "list1" : "list"}>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><a href="">About</a></li>
+                    <li><Link to="/AboutPage">About</Link></li>
                     <li><Link to="/MunePage">Menu</Link></li>
                     <li><a href="">Shop</a></li>
                     <li><a href="">Contact</a></li>
@@ -63,7 +63,7 @@ export default function Navbar(){
                         </div>
                         </div>
                         </li>
-                        <li className="d-xl-none d-md-none d-lg-none" onClick={ToggleMenu}><AiOutlineUnorderedList /></li>
+                        <li className="d-xl-none d-md-block d-lg-none" onClick={ToggleMenu}><AiOutlineUnorderedList /></li>
                 </ul>
             </div>
             </div>

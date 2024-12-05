@@ -1,0 +1,27 @@
+.con{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con .text p{
+    color: gray;
+}
+.con .icon svg{
+    margin: 0px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.con .icon svg:hover{
+    color:#F5C332 ;
+}
+@media (max-width:900px) {
+    .con{
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+    }
+    .con .icon {
+        margin: 20px 0px;
+    }
+}

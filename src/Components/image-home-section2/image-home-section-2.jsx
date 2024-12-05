@@ -3,7 +3,7 @@ import pic from './../../images/1.svg'
 import pIc from './../../images/2.svg'
 import piC from './../../images/3.svg'
 import './image-home-section2.css'  
-export default function ImageHomeSection2(){
+export default function ImageHomeSection2(props){
     return(
         <div className="image-2 col-md-12 col-lg-6 text-md-center ">
             <img src={imageHomeSection2} alt="" />
