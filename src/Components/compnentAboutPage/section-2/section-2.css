@@ -107,3 +107,31 @@
         padding: 00px 20px;
     }
 }
+.first .text{
+    padding-left: 100px;
+    /* width: 50%; */
+    padding-top: 20px;
+    
+}
+.first .text h1{
+    color: #231E41;
+    font-size: 40px;
+    font-weight: bold;
+}
+.first .text p{
+    color: gray;
+    font-size: 15px;
+    padding: 30px 0;
+}
+.first .text .sig{
+    width: 200px;
+}
+.first .text .sig img{
+    width: 100%;
+}
+@media (max-width:700px) {
+    .first .text{
+        width: 100%;
+        padding: 10px;
+    }
+}
