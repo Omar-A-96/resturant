@@ -42,6 +42,7 @@
 .im .sec-4 .text{
     border: 1px dotted rgba(128, 128, 128, 0.397);
     padding: 20px 40px;
+    text-align: center;
 }
 .im .sec-4 .text h1{
     font-size: 50px;
@@ -103,6 +104,6 @@
         margin-bottom: 80px;
     }
     .im .sec-4 .text{
-        padding: 5px 20px;
+        padding: 00px 20px;
     }
 }
