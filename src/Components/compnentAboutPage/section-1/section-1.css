@@ -1,0 +1,45 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15vh;
+    padding: 100px;
+   
+}
+.head .text h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #231E41;
+}
+.head .button a{
+    background-color: #F5C332;
+    padding:25px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #231e4138;
+    transition: 0.5s;
+}
+.head .button a:hover{
+    color: #231E41;
+}
+.head .button a span{
+    color: #231E41;
+    cursor:not-allowed;
+}
+@media (max-width:700px) {
+    .head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        padding: 100px;
+       
+    }
+    .head .text h1{
+        margin-bottom: 40px;
+    }
+    .head .button a{
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+}
