@@ -129,7 +129,7 @@
 .first .text .sig img{
     width: 100%;
 }
-@media (max-width:700px) {
+@media (max-width:800px) {
     .first .text{
         width: 100%;
         padding: 10px;

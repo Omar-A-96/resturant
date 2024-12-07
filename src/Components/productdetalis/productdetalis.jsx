@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-
+import './productdetalis.css'
 export default function ProductDetalis(){
    const[data , setdata] =useState({})
     const params =useParams()
